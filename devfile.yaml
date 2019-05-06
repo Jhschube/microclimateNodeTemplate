@@ -1,5 +1,5 @@
 ---
-specVersion: 1.0
+specVersion: 1.0.0
 name: tempest-plugin-env
 projects:
   - name: nodeTemplate
