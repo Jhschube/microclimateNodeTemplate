@@ -7,9 +7,11 @@ projects:
       type: git
       location: 'https://github.com/Jhschube/microclimateNodeTemplate.git'
 components:
-  - type: cheEditor
+  - name: theia-ide
+    type: cheEditor
     id: eclipse/che-theia/1.0.0
-  - type: chePlugin
+  - name: exec-plugin
+    type: chePlugin
     id: eclipse/che-machine-exec-plugin/0.0.1
   - name: tempest-plugin 
     type: chePlugin
