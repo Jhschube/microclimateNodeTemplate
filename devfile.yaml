@@ -15,4 +15,4 @@ components:
     id: che-machine-exec-plugin:0.0.1
   - alias: tempest-plugin
     type: chePlugin
-id: http://jhs-icp4a.rtp.raleigh.ibm.com/tempest-plugin:1.0.0
+    id: http://jhs-icp4a.rtp.raleigh.ibm.com/tempest-plugin:1.0.0
