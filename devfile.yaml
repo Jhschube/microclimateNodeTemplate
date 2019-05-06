@@ -2,14 +2,10 @@
 specVersion: 1.0
 name: tempest-plugin-env
 projects:
-  - name: petclinic
-    source:
-      type: git
-      location: 'https://github.com/spring-projects/spring-petclinic'
   - name: nodeTemplate
     source:
       type: git
-      location: 'https://github.com/microclimate-dev2ops/microclimateNodeTemplate'
+      location: 'https://github.com/Jhschube/microclimateNodeTemplate'
 components:
   - alias: theia-ide
     type: cheEditor
@@ -17,6 +13,3 @@ components:
   - alias: exec-plugin
     type: chePlugin
     id: eclipse/che-machine-exec-plugin/0.0.1
-  - alias: tempest-plugin
-    type: chePlugin
-    id: http://jhs-icp4a.rtp.raleigh.ibm.com/tempest-plugin/1.0
